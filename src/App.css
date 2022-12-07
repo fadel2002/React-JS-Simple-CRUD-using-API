@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f1f1f1 !important;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.wrap-paper {
+  margin: 0 auto;
+  /* border: solid black 2px; */
+  background-color: white;
+}
+
+.card {
+  width: 80%;
+  padding: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    width: 100%;
+    padding: 20px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .list {
+    padding: 30px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .list {
+    padding: 30px;
+    display: inline-block;
+  }
+}
+
+.about-img {
+  width: 30%;
+}
+
+@media only screen and (max-width: 800px) {
+  .about-img {
+    width: 80%;
+  }
+}
+
+.footer h5 {
+  color: white;
+}
+
+.footer {
+  bottom: 0;
+  background-color: rgba(0, 70, 92, 0.452);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.about li {
+  margin-bottom: 10px;
+}
+
+.card-desc {
+  margin: 20px auto;
+}
+
+.card-desc span {
+  margin: auto;
+  /* border: black 2px solid; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.login-nav {
+  /* border: black solid 2px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+}
+
+li.login-nav:hover {
+  background-color: white;
+}
+
+.login-page {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  padding: 0px 20px;
+}
+
+.loginBar {
+  height: 70px;
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar li {
+  list-style: none;
+  width: 100%;
+  height: 50px;
+}
+.sidebar li:hover {
+  background-color: rgba(0, 0, 0, 0.219);
+}
+
+.trigger {
+  padding: 0 24px;
+  font-size: 18px;
+  line-height: 64px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.triggered {
+  padding: 0 140px;
+  font-size: 18px;
+  line-height: 64px;
+  cursor: pointer;
+  transition: color 0s;
+}
+
+.trigger:hover {
+  color: #1890ff;
+}
+
+.triggered:hover {
+  color: #1890ff;
+}
+
+.logo {
+  height: 64px;
+  width: 200px;
+}
+
+.site-layout .site-layout-background-light {
+  background: #fff;
+}
+
+.site-layout .site-layout-background-dark {
+  background: #001529;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 77px 4px auto;
+  column-gap: 5px;
+}
